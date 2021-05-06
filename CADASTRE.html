@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+    <link rel="shortcut icon" href="img/Logo.png">
+    <title>Educa Mais - Criar Cadastro</title>
+	<link rel ="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+
+	<img class="logo" src="img/Educa Mais 2.jpg" title="Educa Mais" 
+			alt="HTML5">
+
+	<img class="logo-title" src="img/logo-title.png" title="img-title">
+	
+	<input class="btn-voltar" type="button" value="Voltar" onClick="history.go(-1)">
+
+	<hr>
+
+	<h1 class="h1-CAD">CADASTRE-SE</h1>
+
+	<form name="Cadastro" method="POST" action="conexao.php">
+
+		<label class="campo">NOME:</label>
+		<br>
+			<input type="text" name="nome" class="campo" maxlength="30" required autofocus />
+		<br>
+		<label class="campo">RG:</label/>
+		<br>
+		<input type="number" name="rg" class="campo" maxlength="15" required />
+		<br>
+		<label class="campo">CPF:</label>
+		<br>
+		<input type="number" name="cpf" class="campo" maxlength="15" required />
+		<br>
+		<label class="campo">DATA NASC.:</label>
+		<br>
+		<input type="date" name="dataNasc" class="campo" maxlength="
+		<label>EMAIL:</label><br />
+		<input type="text" name="email" class="campo" maxlength="30" required />
+		<br>
+		<label class="campo">ENDEREÇO:</label><br />
+		<input type="text" name="endereco" class="campo" maxlength="30" required />
+		<br>
+		<label class="campo">NACIONALIDADE:</label>
+		<br>
+		<input type="text" name="nacionalidade" class="campo" maxlength="30" required/>
+		<br><br>
+
+		<input type="submit" value="Cadastrar" class="btn"/>
+		<input type="reset" value="Limpar" class="btn" />
+		
+	</form>
+
+	<img class="estudos" src="img/estudos.jpg" title="livro aberto" 
+			alt="HTML5">
+
+</body>
+
+</html>

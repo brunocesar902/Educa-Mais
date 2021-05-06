@@ -1,0 +1,288 @@
+img {
+	border-style:3dbfa7;
+	border-radius: 17px;
+	border-width: 2px;
+}
+
+body {
+	background-image: url("img/bg - teste.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*PÁGINA HOME - INICIO*/
+.logo {
+	position: relative;
+	left: 270px;
+}
+.logo-title {
+	position: relative;
+	left: 290px;
+}
+.btn-voltar {
+	position: relative;
+	left: 450px;
+}
+.btn-AL {
+	position: relative;
+	top: -145px;
+	left: 40px;
+}
+.btn-AL{
+	background-color:#3dbfa7;
+	margin-top:7px;
+	height:35px;
+	border-radius:15px;
+	border:1px #4F4F4F solid;
+	font-size:22px;
+	font-family:verdana;
+}
+.btn-QS {
+	position: relative;
+	top: -105px;
+	right: 125px;
+}
+.btn-QS {
+	background-color:#3dbfa7;
+	margin-top:7px;
+	height:35px;
+	border-radius:15px;
+	border:1px #4F4F4F solid;
+	font-size:22px;
+	font-family:verdana;
+}
+.btn-FC {
+	position: relative;
+	top: -65px;
+	right: 287px;
+}
+.btn-FC {
+	background-color:#3dbfa7;
+	margin-top:7px;
+	height:35px;
+	border-radius:15px;
+	border:1px #4F4F4F solid;
+	font-size:22px;
+	font-family:verdana;
+}
+.txt-proposito {
+	position: relative;
+	top: -10px;
+	left: 18px;
+	width: 500px;
+	font-size:22px;
+}
+.girl {
+	position: absolute;
+	top: 200px;
+	left: 573px;
+	width: 700px;
+}
+.hr {
+	position: relative;
+	top: 200px;
+}
+.rodape {
+	height: 17px;
+	width: 220px;
+}
+.rodape {
+	position: absolute;
+	top: 620px;
+	left: 25px;
+}
+/*PÁGINA HOME - FINAL*/
+
+/*PÁGINA ALUNO - INICIO*/
+
+.btn-EAD {
+	position: relative;
+	top: -145px;
+	left: 60px;
+}
+
+.btn-EAD {
+	background-color:#3dbfa7;
+	margin-top:7px;
+	height:35px;
+	border-radius:15px;
+	border:1px #4F4F4F solid;
+	font-size:22px;
+	font-family:verdana;
+}
+
+.btn-CAD {
+	position: relative;
+	top: -105px;
+	right: 90px;
+}
+
+.btn-CAD {
+	background-color:#3dbfa7;
+	margin-top:7px;
+	height:35px;
+	border-radius:15px;
+	border:1px #4F4F4F solid;
+	font-size:22px;
+	font-family:verdana;
+}
+
+.btn-NTC {
+	position: relative;
+	top: -65px;
+	right: 234px;
+	width: 140px;
+}
+
+.btn-NTC {
+	background-color:#3dbfa7;
+	margin-top:7px;
+	height:35px;
+	border-radius:15px;
+	border:1px #4F4F4F solid;
+	font-size:22px;
+	font-family:verdana;
+}
+
+.texto-1 {
+	position:absolute;
+	top:155px;
+	left:20px;
+	display:table-cell;
+	float:left;
+	width:800px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:#4d0000;
+	text-align:justify;
+}
+
+.texto-2 {
+	position:absolute;
+	top:305px;
+	left:20px;
+	display:table-cell;
+	width:810px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:black;
+	text-align:justify;
+}
+
+.ods4 {
+	position: relative;
+	top: 25px;
+	left: 880px;
+}
+
+.logo-italo {
+	position: relative;
+	top: 210px;
+	left: 574px;
+}
+
+/*PÁGINA ALUNO - FINAL*/
+/*PÁGINA CURSOS EAD - INICIO*/
+.ciencias{
+	cursor: pointer;
+	position:absolute;
+	top: 78px;
+	left:80px;
+}
+
+.matematica{
+	cursor: pointer;
+	position:absolute;
+	top: 39px;
+	left:345px;
+}
+
+.informatica{
+	cursor: pointer;
+	position:absolute;
+	top: 72px;
+	left:-220px;
+}
+
+.portugues{
+	cursor: pointer;
+	position:absolute;
+	top: 144px;
+	left:171px;
+}
+/*PÁGINA CURSOS EAD - FINAL*/
+/*PÁGINA CADASTRE-SE - INICIO*/
+.h1-CAD {
+	position: relative;
+	top: -15px;
+}
+
+.campo {
+	position: relative;
+	left: 35px;
+}
+
+.btn {
+	position: relative;
+	top: -10px;
+	left: 36px;
+}
+
+.estudos {
+	position: relative;
+	top: -300px;
+	left: 380px;
+}
+/*PÁGINA CADASTRE-SE - FINAL*/
+/*PÁGINA NOTICIAS - INICIO*/
+
+.link-usp{
+ position: relative;
+ top: 400px;
+ right: 1040px;
+}
+
+.txt-NOT {
+	position: relative;
+	left: 60px;
+}
+
+.txt-NOT {
+	display:table-cell;
+	float:left;
+	width: 1100px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:black;
+	text-align:justify;	
+}
+/*PÁGINA NOTICIAS - INICIO*/
+
+
+
+.conteudo {
+	display:table;
+}
+
+.ondeEstamos {
+	position:absolute;
+	width:400px;
+	top:230px;
+	left:855px;
+	text-align:justify;
+}
+
+.txt-quemSomos {
+	position:absolute;
+	top: 195px;
+	left:20px;
+	display:table-cell;
+	width:795px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:black;
+}
+
+.mapa {
+	position:absolute;
+	top:297px;
+	left:850px;
+}
